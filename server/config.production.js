@@ -1,5 +1,5 @@
 module.exports = {
     "restApiRoot": "/api",
-    "host": "0.0.0.0",
-    "port": 4000
+    "host": process.env.HOST,
+    "port": process.env.PORT
   }
