@@ -30,7 +30,7 @@
             "enabled": false
         },
         "morgan": {
-            "params": ["dev"]
+            "params": ["dev", {"buffer": true}]
         }
     },
     "session": {},
