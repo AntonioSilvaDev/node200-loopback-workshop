@@ -5,7 +5,8 @@ module.exports = {
     },
     "MongoDB": {
         "url": "mongodb://localhost:27017",
-        "connector": "mongodb",
-        "name": "MongoDB"
+        "name": "MongoDB",
+        "connector": "mongodb"
+        
     }
 }
