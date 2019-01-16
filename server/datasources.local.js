@@ -4,7 +4,8 @@ module.exports = {
         "connector": "memory"
     },
     "MongoDB": {
-        "connector": "loopback-connector-mongodb",
+        "url": "mongodb://localhost:27017",
+        "connector": "mongodb",
         "name": "MongoDB"
     }
 }

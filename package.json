@@ -8,8 +8,7 @@
   "scripts": {
     "lint": "eslint .",
     "start": "node .",
-    "posttest": "npm run lint",
-    "test": "mocha test/*.spec.js"
+    "test": "mocha test/*.spec.js --exit"
   },
   "dependencies": {
     "compression": "^1.0.3",
